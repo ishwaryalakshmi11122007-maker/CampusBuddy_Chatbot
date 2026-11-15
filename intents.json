@@ -1,0 +1,165 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to CampusBuddy. What can I help you with?",
+        "Hey! Ask me about campus life, exams, placements, or study tips."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk later"
+      ],
+      "responses": [
+        "Goodbye! Good luck with your studies.",
+        "See you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "that's helpful",
+        "thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help. Anything else?"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available",
+        "tell me about courses",
+        "course information",
+        "degree programs"
+      ],
+      "responses": [
+        "Course offerings vary by institution. Which program or subject are you interested in?"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "attendance requirement",
+        "attendance percentage",
+        "how do I check attendance",
+        "attendance shortage"
+      ],
+      "responses": [
+        "Check your official student portal or academic handbook for your institution's exact attendance policy."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "when are the exams",
+        "exam timetable",
+        "exam schedule",
+        "how should I prepare for exams"
+      ],
+      "responses": [
+        "Check your institution's official timetable for confirmed dates. For preparation, use active recall, revision, and practice questions."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "where is the library",
+        "library timings",
+        "library information",
+        "borrow books"
+      ],
+      "responses": [
+        "Library location and hours are campus-specific. Check your campus notice board or official website."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "tell me about placements",
+        "placement opportunities",
+        "campus recruitment",
+        "placement training"
+      ],
+      "responses": [
+        "Start with your placement cell's eligibility rules and recruitment calendar. Practice aptitude, coding, and interviews."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+         "available scholarships",
+         " how to apply for scholarship",
+         "scholarship details",
+         "financial aid",
+         "how can I get a scholarship",
+         "how do I get a scholarship",
+         "where can I apply for scholarships",
+         "scholarship eligibility",
+        "I need financial assistance"
+      ],
+         
+      "responses": [
+        "Check your college scholarship office and official government scholarship portal for current schemes and eligibility."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        
+  "give me project ideas",
+  "final year project ideas",
+  "AI project ideas",
+  "computer science mini project",
+  "what projects can I work on",
+  "suggest some projects",
+  "give me mini project ideas",
+  "project ideas for students",
+  "machine learning project ideas"
+      ],
+      "responses": [
+        "Try a campus FAQ bot, recommendation system, smart agriculture monitor, assistive learning tool, or computer vision project."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "how to study effectively",
+        "study tips",
+        "help me prepare for exams",
+        "make a study plan"
+      ],
+      "responses": [
+        "Break the subject into small tasks. Use focused study blocks, active recall, spaced revision, and practice questions."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "college contact information",
+        "how can I contact the college",
+        "office contact",
+        "department office"
+      ],
+      "responses": [
+        "Use your institution's official website or student portal for verified contact information."
+      ]
+    }
+  ]
+}

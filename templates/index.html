@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CampusBuddy | Student Support</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main class="app-shell">
+ <aside class="sidebar">
+  <div class="brand"><span class="brand-icon">C</span><div><small>STUDENT SUPPORT</small><h1>CampusBuddy</h1><p>Your campus companion</p></div></div>
+  <div class="online"><i></i> Assistant is ready</div>
+  <div class="side-links"><small>QUICK PROMPTS</small>
+   <button data-prompt="How can I prepare for placements?">Placement preparation</button>
+   <button data-prompt="Give me AI project ideas">AI project ideas</button>
+   <button data-prompt="How should I prepare for exams?">Exam preparation</button>
+  </div>
+  <p class="disclaimer">Student project prototype. Verify policies, dates and official information with your institution.</p>
+ </aside>
+ <section class="chat">
+  <header><div class="avatar">CB</div><div><strong>CampusBuddy Assistant</strong><small><i></i> Online · Student help desk</small></div><button id="clear">Clear chat</button></header>
+  <div id="messages" class="messages" aria-live="polite">
+   <div class="welcome"><div class="spark">✦</div><small>YOUR CAMPUS, MADE SIMPLER</small><h2>Hey there! What can I help you with?</h2><p>Ask a question or choose a quick topic below.</p>
+    <div class="quick">
+     <button data-prompt="Tell me about placements">💼 <span>Placements</span></button>
+     <button data-prompt="What is the attendance requirement?">📚 <span>Attendance</span></button>
+     <button data-prompt="When are the exams?">🗓️ <span>Exams</span></button>
+     <button data-prompt="Suggest an AI project">🧠 <span>Project ideas</span></button>
+    </div>
+   </div>
+  </div>
+  <form id="form"><input id="input" maxlength="500" placeholder="Message CampusBuddy..." autocomplete="off" required><button id="send" aria-label="Send">➤</button></form>
+  <footer>CampusBuddy can make mistakes. Confirm important information through official campus sources.</footer>
+ </section>
+</main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body></html>
